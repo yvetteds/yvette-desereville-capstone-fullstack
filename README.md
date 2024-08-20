@@ -29,7 +29,7 @@ To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-In order to launch the application, start my installing the necessary npm packages in both frontend & backend repositories. 
+In order to launch the application, start my installing the necessary npm packages in both client & server folders. 
 * npm
    ```sh
    npm install
