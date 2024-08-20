@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_PROJECTS_URL = "http://localhost:8080/api/projects";
+export const API_PROJECTS_URL = `http://localhost:${process.env.REACT_APP_PORT}/api/projects`;
 
 export const getAllProjects = async (fn) => {
   try {

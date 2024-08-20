@@ -26,9 +26,7 @@ export const Prompt = () => {
       [name]: value,
     });
 
-    const genAI = new GoogleGenerativeAI(
-      "AIzaSyDYMV6C53RCB8PgUYxCnuvHv0sMfpMMF5M"
-    );
+    const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GEMINI_API_KEY);
 
     try {
       setText("Loading...");
