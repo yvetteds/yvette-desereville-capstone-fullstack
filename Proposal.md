@@ -307,7 +307,7 @@ Response:
 
 - **Deploy** client and server projects so all commits will be reflected in production
 
-- Integrate Gemeni backend API request to summarize research articles on the fly and keep those summaries on the dashboard 
+- Integrate Gemini backend API request to summarize research articles on the fly and keep those summaries on the dashboard 
 
 - Forgot password functionality 
 
