@@ -1,0 +1,95 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/colors" as *;
+
+.modal {
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  flex-direction: column;
+  background-color: $cloud;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  border-radius: 3.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 100%;
+
+  &__header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    width: 100%;
+    border-radius: 5rem;
+  }
+
+  &__body {
+    gap: 0.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &--heading {
+      @include dynamicFont(600, 1.35rem, 2.25rem, $navyblue);
+    }
+
+    &--paragraph {
+      @include dynamicFont(400, 0.85rem, 1.625rem, $navyblue);
+    }
+  }
+
+  &__close--button {
+    all: unset;
+    cursor: pointer;
+  }
+
+  &__footer {
+    gap: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 0.5rem;
+    align-items: center;
+  }
+}
+
+.cancel {
+  border: none;
+  background: none;
+  @include dynamicFont(400, 0.75rem, 1rem, $white);
+  background-color: $navyblue;
+  padding: 0.5rem 0.75rem;
+  border-radius: 24px;
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.delete {
+  border: none;
+  background: none;
+  @include dynamicFont(400, 0.75rem, 1rem, $white);
+  background-color: darkred;
+  padding: 0.5rem 0.75rem;
+  border-radius: 24px;
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

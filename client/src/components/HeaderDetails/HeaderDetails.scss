@@ -1,0 +1,42 @@
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/colors";
+@import "../../styles/partials/typography";
+@import "../../styles/partials/variables";
+
+.header {
+  width: 100%;
+
+  &__name {
+    @include dynamicFont(600, 0.95rem, 1rem, $navyblue);
+    margin: 2rem 0 0 2rem;
+    padding-top: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    @include mobile {
+      width: 100%;
+      flex-direction: row;
+      height: 4rem;
+      align-items: flex-end;
+      color: $navyblue;
+      justify-content: space-between;
+    }
+
+    @include tablet {
+      width: 100%;
+      flex-direction: row;
+      height: 4rem;
+      align-items: flex-end;
+      color: $navyblue;
+      justify-content: space-between;
+    }
+  }
+}
+
+.delete__button {
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 2rem;
+}

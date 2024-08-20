@@ -1,0 +1,27 @@
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/colors";
+@import "../../styles/partials/typography";
+@import "../../styles/partials/variables";
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  @include dynamicFont(600, 0.75rem, 0.75rem, $navyblue);
+}
+
+.todo-item--closed {
+  color: $blue;
+  text-decoration: line-through;
+  padding: 0 0.5rem;
+}
+
+.todo-item--open {
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+.todo-list {
+  width: 100%;
+}

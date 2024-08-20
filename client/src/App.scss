@@ -1,0 +1,22 @@
+@use "./styles/partials/mixins" as *;
+@use "./styles/partials/colors" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: $cloud;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
