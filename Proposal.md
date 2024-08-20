@@ -18,7 +18,7 @@ Furthermore, it is important to be able to effectively communicate your work whe
 
 Current available project management tools/apps, like Asana, ClickUp & Jira, (all of which I have previously used in research settings, or a combination of), have their weaknesses when it comes to lofty research goals/projects or any repetitive processes that are involved with experimental projects. 
 
-This project is motivated by my work at an early-stage research startup. My role as a researcher in industry helped me understand the needs of my team. This work is also inspired by my experiences as a graduate research student who wrote a thesis and was interviewing while transitioning into industry. Having a worked around a lot of researchers I see a gap in this space that could be filled in terms of how they manage their brand and their projects. 
+This project is motivated by my work at an early-stage research startup. My role as a researcher in industry helped me understand the needs of my team. This work is also inspired by my experiences as a graduate research student who wrote a thesis and was interviewing while transitioning into industry. Having worked around a lot of researchers I see a gap in this space that could be filled in terms of how they manage their brand and their projects. 
 
 ### User Profile
 
