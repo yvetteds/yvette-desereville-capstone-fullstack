@@ -37,7 +37,7 @@ In order to launch the application, start my installing the necessary npm packag
 
 ### Getting Started 
 
-1. In the backend repository, create a local .env file by referring to the .env.example file in that repository 
+1. In the server folder, create a local .env file by referring to the .env.example file in that folder 
 2. On the front end, ensure that the **lib** (library) folder contains the same port number as on your backend PORT .env variable to access the backend 
 3. Spin up a local MySQL instance and create a local db to host the data for this application
 4. Run the migrations with the 'knex migrate:latest' command to build the tables 
