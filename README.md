@@ -42,11 +42,11 @@ In order to launch the application, start my installing the necessary npm packag
 3. Spin up a local MySQL instance and create a local db to host the data for this application
 4. Run the migrations with the 'knex migrate:latest' command to build the tables 
    ```sh
-   knex migrate:latest
+   npm run migrate 
    ```
 5. Seed the tables with the sample data by running 'knex seed:run' 
    ```sh
-   knex seed:run
+   npm run seed
    ```
 6. To launch the application, launch the backend first, by running 'npm start' or an equivalent start command. 
    ```sh
