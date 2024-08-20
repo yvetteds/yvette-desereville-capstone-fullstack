@@ -91,7 +91,7 @@ This project is motivated by my work at an early-stage research startup. My role
 ##### List projects dashboard 
 ##### View + Edit project dashboard
 
-![Alt text](./proposalAssets/yvette-desereville-capstone-mockup-sketch.png)
+![Alt text](proposalAssets/yvette-desereville-capstone-mockup-sketch.png)
 
 ### Data
 
