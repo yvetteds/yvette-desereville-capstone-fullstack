@@ -38,7 +38,7 @@ In order to launch the application, start my installing the necessary npm packag
 ### Getting Started 
 
 1. In the server folder, create a local .env file by referring to the .env.example file in that folder 
-2. On the front end, ensure that the **lib** (library) folder contains the same port number as on your backend PORT .env variable to access the backend 
+2. On the client side, ensure that the **lib** (library) folder contains the same port number as in your server PORT .env variable to access the backend 
 3. Spin up a local MySQL instance and create a local db to host the data for this application
 4. Run the migrations with the 'knex migrate:latest' command to build the tables 
    ```sh
@@ -48,7 +48,7 @@ In order to launch the application, start my installing the necessary npm packag
    ```sh
    knex seed:run
    ```
-6. To launch the application, launch the backend first, by running 'npm start' or an equivalent starting command. 
+6. To launch the application, launch the backend first, by running 'npm start' or an equivalent start command. 
    ```sh
    npm start
    ```
@@ -61,6 +61,8 @@ In order to launch the application, start my installing the necessary npm packag
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+This is a mobile-first application, designed to be used on the go. However, it does have some responsive elements for tablet and desktop view. 
 
 - The application home page is the 'My Projects' dashboard with an overview of your projects and a dashboard
 - To add a project, click into the '+' icon in the footer navigation bar 
@@ -77,7 +79,7 @@ In order to launch the application, start my installing the necessary npm packag
 <!-- CONTACT -->
 ## Contact
 
-Your Name - Yvette de Sereville 
+Yvette de Sereville: linkedin.com/in/yvette-de-sereville
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
