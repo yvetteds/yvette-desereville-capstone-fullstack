@@ -2,7 +2,7 @@
 
 ### About the Project 
 
-projectLab is a web-based project management application that anyone can use for personal project portfolio management. Although with my research background, it was built with graduate students and research professionals in mind, it is versatile enough to be used by anyone wanting to build further structure around their research, personal or professional projects (theses/goals). It is also, more broadly, a project management tool that can be used to summarize any sub-projects they do at work to build a living portfolio and make interview preparation easier. 
+projectLab is a web-based project management application that anyone can use for personal project portfolio management. Although with my research background, it was built with graduate students and research professionals in mind, it is versatile enough to be used by anyone wanting to build further structure around their research, and personal or professional projects (theses/goals). It is also, more broadly, a project management tool that can be used to summarize any sub-projects they do at work to build a living portfolio and make interview preparation easier. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -18,7 +18,7 @@ projectLab is a web-based project management application that anyone can use for
 - Server libraries:
     * knex
     * express
-    * Google's Gemeni API
+    * Google's Gemini API
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
