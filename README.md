@@ -8,6 +8,12 @@ projectLab is a web-based project management application that anyone can use for
 
 ![Alt text](/proposalAssets/yvette-de-sereville-projectLab-slides-features.jpg)
 
+![Alt text](/proposalAssets/yvette-de-sereville-projectLab-slides-overview.jpg)
+
+![Alt text](/proposalAssets/yvette-de-sereville-projectLab-slides-gemini.jpg)
+
+![Alt text](/proposalAssets/yvette-de-sereville-projectLab-slides-timeline.jpg)
+
 ### Built With
 
 * [![React][React.js]][React-url]
