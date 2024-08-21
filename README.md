@@ -6,7 +6,7 @@ projectLab is a web-based project management application that anyone can use for
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-![Alt text](/proposalAssets/yvette-de-sereville-projectLab-slides-features)
+![Alt text](/proposalAssets/yvette-de-sereville-projectLab-slides-features.jpg)
 
 ### Built With
 
